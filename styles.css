@@ -1,0 +1,40 @@
+body {
+  background-image: url('https://miro.medium.com/max/1200/1*W3kb79OfXAXsaZy-kRXrKw.png');
+  max-width:100%;
+  height: auto;
+  background-size:cover no-repeat;
+}
+
+.selections {
+display:flex;
+justify-content:space-evenly;
+}
+.btn-style{
+flex-direction: row;
+margin:20px;
+font-size: 20px;
+padding: 60px;
+font-family:"Papyrus"
+
+}
+.btn-style:hover{
+transform: scale(1.25) perspective(1px);
+}
+.earth-btn{
+background-image: url(https://i.pinimg.com/736x/c1/90/b4/c190b404dffa72e9f5532a3e1c561f59.jpg);
+background-size: cover;
+
+}
+.fire-btn{
+background-image: url(https://i.pinimg.com/736x/aa/bd/bc/aabdbca6d01d7301e0059cd00c11d026.jpg);
+background-size:cover;
+}
+.game-title{
+text-align:center;
+font-size: 60px;
+font-family:"Papyrus";
+}
+.water-btn{
+background-image:url(https://i.pinimg.com/736x/be/cc/3c/becc3cc8cb0b8a997ac7434e14b61e6b.jpg);
+background-size: cover;
+}
